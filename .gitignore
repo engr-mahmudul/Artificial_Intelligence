@@ -1,0 +1,38 @@
+# Ignore the myenv folder
+myenv/
+git_not/
+
+# Ignore Google Drive dependencies (assuming they're in a specific directory structure)
+# Modify the following lines to match the actual names of directories used by Google Drive in your project
+# For example, if you use Google Colab, it might create a folder named `drive` or `content/drive`
+
+drive/
+content/drive/
+
+# Optional: Ignore other common directories and files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.tmp
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment and Python-related folders and files
+*.egg-info/
+.eggs/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.Python
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
